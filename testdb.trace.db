@@ -1,0 +1,39 @@
+2026-04-05 09:24:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FEES" not found (this database is empty); SQL statement:
+SELECT * FROM fees [42104-214]
+2026-04-18 07:34:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FEES" not found (this database is empty); SQL statement:
+SELECT * FROM fees [42104-214]
+2026-04-18 17:23:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FEES" not found (this database is empty); SQL statement:
+INSERT INTO fees (feeType, amount, description, status, createdDate) VALUES (?, ?, ?, ?, ?) [42104-214]
+2026-04-18 17:36:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FEES" not found (this database is empty); SQL statement:
+SELECT * FROM fees [42104-214]
+2026-04-18 17:53:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FEES" not found (this database is empty); SQL statement:
+INSERT INTO fees (feeType, amount, description, status, createdDate) VALUES (?, ?, ?, ?, ?) [42104-214]
+2026-04-18 17:54:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FEES" not found (this database is empty); SQL statement:
+SELECT * FROM fees [42104-214]
+2026-04-18 18:03:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FEES" not found (this database is empty); SQL statement:
+INSERT INTO fees (feeType, amount, description, status, createdDate) VALUES (?, ?, ?, ?, ?) [42104-214]
+2026-04-18 18:03:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FEES" not found (this database is empty); SQL statement:
+INSERT INTO fees (feeType, amount, description, status, createdDate) VALUES (?, ?, ?, ?, ?) [42104-214]
+2026-04-19 08:03:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FEES" not found (this database is empty); SQL statement:
+INSERT INTO fees (feeType, amount, description, status, createdDate) VALUES (?, ?, ?, ?, ?) [42104-214]
+2026-04-19 08:05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FEES" not found (this database is empty); SQL statement:
+SELECT * FROM fees [42104-214]
+2026-04-19 08:07:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FEES" not found (this database is empty); SQL statement:
+SELECT * FROM fees WHERE feeId = ? [42104-214]
+2026-04-19 08:10:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PAYMENTS" not found (this database is empty); SQL statement:
+INSERT INTO payments (studentId, feeId, amount, paymentDate, paymentMethod, status) VALUES (?, ?, ?, ?, ?, ?) [42104-214]
+2026-04-19 08:12:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PAYMENTS" not found (this database is empty); SQL statement:
+SELECT * FROM payments [42104-214]
